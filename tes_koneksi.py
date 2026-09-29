@@ -2,9 +2,6 @@ import gspread
 from google.oauth2.service_account import Credentials
 import requests
 
-# ----------------------------------------------------
-# 1. KONFIGURASI BOT TELEGRAM (Dari Mas Margo)
-# ----------------------------------------------------
 TOKEN_BOT = "8928405538:AAE1zxWBwXOeM2tzmPFJsOy58DMMliSBfcM"
 
 # Tes Bot Telegram
@@ -16,9 +13,6 @@ if response.get("ok"):
 else:
     print("❌ Token Bot Telegram Salah / Error!")
 
-# ----------------------------------------------------
-# 2. KONFIGURASI GOOGLE SHEET (Dari Mas Margo)
-# ----------------------------------------------------
 SHEET_ID = "1i9Sz8IRQXnGu6fb-88vKrsNbUqovaN2BbNegVNzmHWo"
 JSON_FILE = "credentials.json" # Pastikan file JSON ada di folder yang sama
 
