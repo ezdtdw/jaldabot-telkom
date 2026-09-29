@@ -1,0 +1,8 @@
+# Abaikan token, kunci rahasia, dan virtual environment
+.env
+*.json
+token.txt
+__pycache__/
+venv/
+.vscode/
+credentials.json
